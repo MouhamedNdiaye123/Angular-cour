@@ -1,0 +1,18 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10%;
+}
+nav{
+    display: flex;
+}
+nav a{
+    margin: 10px;
+    color: black;
+}
+nav a:hover{
+    transform: rotate(0 10deg 0 10deg);
+    color: blueviolet;
+    transform: skewX(30px);
+}

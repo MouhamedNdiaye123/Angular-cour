@@ -1,0 +1,17 @@
+<section>
+    <h2>formulaire basee sur Template</h2>
+    <form #f="ngForm">
+    
+        <input type="text" name="name" placeholder="Nom" ngModel #n="ngModel">
+        <input type="text" placeholder="Prenom" name="lastname" ngModel #l="ngModel">
+        <input type="email" placeholder="Email" name="email" ngModel #e="ngModel">
+        <input type="number" placeholder="Telephone" name="tel" ngModel #t="ngModel">
+    </form>
+    <div>
+        <p>Nom: {{n.value}}</p>
+        <p>Prenom: {{l.value}}</p>
+        <p>Email: {{e.value}}</p>
+        <p>Num Tel: {{t.value}}</p>
+    </div>
+</section>
+  
